@@ -1,0 +1,85 @@
+@import url("/fonts.css");
+
+body {
+    padding-top: 10vh;
+    background-color: #B4FFDF !important;
+}
+.hero-text {
+    font-family: 'NHG';
+    font-size: 15vw;
+    -webkit-text-stroke: 0.22vw #623C65;
+    color: #ffffff00;
+}
+#i-build {
+    position: absolute;
+    top: 0;
+    left: 5vw;
+}
+#cool {
+    position: absolute;
+    left: 54vw;
+    top: 20vh;
+}
+#shtuff {
+   position: absolute;
+   bottom: 5vh;
+   left: 26vw;
+}
+#reese-video {
+    position: relative;
+    z-index: -1000;
+    left: 20vw;
+    height: 65vh;
+    width: 55vw;
+    filter: opacity(70%);
+}
+#reese-armstrong {
+    font-family: 'NHG';
+    font-weight: bold;
+    position: absolute;
+    bottom: 40vh;
+    left: 35vw;
+}
+#connect {
+    margin-top: 35vh;
+    margin-bottom: 3rem;
+}
+#twitch:hover {
+    background-color: #9147FF;
+    transition: ease 0.25s;
+}
+#twitch:hover > path {
+    fill: #fff;
+}
+#youtube:hover {
+    background-color: #FF0000;
+    transition: ease 0.25s;
+}
+#youtube:hover > path {
+    fill: #fff;
+    stroke-width: 4px;
+    transition: ease 0.25s;
+}
+#youtube:hover > mask > path {
+    fill: #fff;
+    transition: ease 0.25s;
+}
+#github:hover {
+    background-color: #000;
+    transition: ease 0.25s;
+}
+#github:hover > path {
+    fill: #fff;
+}
+#discord:hover {
+    background-color: #5865F2;
+    transition: ease 0.25s;
+}
+#discord:hover > path {
+    fill: #fff;
+}
+@media only screen and (max-width: 760px) {
+   #social-icons {
+       width: min-content;
+   } 
+} 

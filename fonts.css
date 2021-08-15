@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "NHG";
+    src: url("/NHaasGroteskTXW01-55Rg.ttf");
+}
+@font-face {
+    font-family: "NHG";
+    src: url("/NHaasGroteskTXW01-75Bd.ttf");
+    font-weight: bold;
+}
