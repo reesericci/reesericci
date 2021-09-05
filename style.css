@@ -2,13 +2,13 @@
 
 body {
     padding-top: 10vh;
-    background-color: #B4FFDF !important;
+    background-color: #003049 !important;
 }
 .hero-text {
     font-family: 'NHG';
     font-size: 15vw;
     -webkit-text-stroke: 0.22vw #623C65;
-    color: #ffffff00;
+    color: #FF6F61;
 }
 #i-build {
     position: absolute;
@@ -39,6 +39,7 @@ body {
     position: absolute;
     bottom: 40vh;
     left: 35vw;
+    color: #B1FFEC;
 }
 #connect {
     margin-top: 35vh;
