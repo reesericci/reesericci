@@ -4,6 +4,14 @@ body {
     padding-top: 10vh;
     background-color: #003049 !important;
 }
+
+a {
+  color: #B1FFEC !important;
+}
+a:hover {
+  color: #80c4b3 !Important;
+  transition: ease 0.1s;
+}
 .hero-text {
     font-family: 'NHG';
     font-size: 15vw;
@@ -78,6 +86,12 @@ body {
 }
 #discord:hover > path {
     fill: #fff;
+}
+
+.email {
+  margin-top: 2rem;
+  color: #FF6F61;
+  text-align: center;
 }
 @media only screen and (max-width: 760px) {
    #social-icons {
