@@ -14,24 +14,33 @@ a:hover {
 }
 .hero-text {
     font-family: 'NHG';
-    font-size: 15vw;
-    -webkit-text-stroke: 0.22vw #623C65;
-    color: #FF6F61;
+    font-size: 10vw;
+    -webkit-text-stroke: 1.2vw #FF6F61;
+    color: rgba(0,0,0,0);
+    letter-spacing: 0.01em;
 }
 #i-build {
     position: absolute;
     top: 0;
-    left: 5vw;
+    left: 10vw;
 }
 #cool {
     position: absolute;
-    left: 54vw;
+    left: 59vw;
     top: 20vh;
 }
 #shtuff {
    position: absolute;
    bottom: 5vh;
-   left: 26vw;
+   left: 31vw;
+}
+#connect-with-me {
+  text-align: center;
+  -webkit-text-stroke: 0.02em #B1FFEC;
+  font-family: 'NHG';
+  color: rgba(0,0,0,0);
+  margin-bottom: 2rem;
+  font-size: 5em;
 }
 #reese-video {
     position: relative;
