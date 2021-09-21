@@ -15,9 +15,8 @@ a:hover {
 .hero-text {
     font-family: 'NHG';
     font-size: 10vw;
-    -webkit-text-stroke: 1.2vw #FF6F61;
+    -webkit-text-stroke: 0.5vw #FF6F61;
     color: rgba(0,0,0,0);
-    letter-spacing: 0.01em;
 }
 #i-build {
     position: absolute;
