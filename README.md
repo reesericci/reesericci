@@ -34,6 +34,7 @@ I like penguins, dinosaurs, strongly typed coffee, and ships!
  - shortie.sh
  - (api.)purplegrey.today
  - ticalc.wiki
+ - stoopid.xyz
 
 
 go to my website
