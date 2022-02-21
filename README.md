@@ -10,7 +10,7 @@ I like penguins, dinosaurs, strongly typed coffee, cybernetically enhanced web a
 I learned Svelte and it's **amazing**! It has so many features and just compiles down to what you actually use; it's super fast and yet so powerful. 
 It also brings JS into your HTML and not the other way around which is so much more intuitive.
 
-I just launched v3 for the shortie.sh frontend! Go check it out at well, shortie.sh. It's a dead-simple url shortener that's privacy-respecting.
+I just launched v3 for the shortie.sh frontend! It's written in Svelte using Sveltekit on Netlify as the hosting. Go check it out at well, shortie.sh. It's a dead-simple url shortener that's privacy-respecting.
 
 
 
