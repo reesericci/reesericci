@@ -1,26 +1,32 @@
 
-## Helloo there -- I'm Reese
+## Helloo there! 👋 -- I'm Reese (reesericci)
 A lienux+ certified hooman in the education system who creates apparently useful stuff on the interwebs.
 
-I like penguins, dinosaurs, strongly typed coffee, and ships!
+I like penguins, dinosaurs, strongly typed coffee, cybernetically enhanced web apps, and ships!
 (if anyone can understand those references please email me at me@reeseric.ci)
 
+### What I've been up to (accurate as of 2/21/22)
+
+I learned Svelte and it's **amazing**! It has so many features and just compiles down to what you actually use; it's super fast and yet so powerful. 
+It also brings JS into your HTML and not the other way around which is so much more intuitive.
+
+I just launched v3 for the shortie.sh frontend! Go check it out at well, shortie.sh. It's a dead-simple url shortener that's privacy-respecting.
+
+
+
 ### Skillz
+(pronounced skill-zed)
 
 - Can make websites
-  - TailwindCSS is life support
+  - TailwindCSS singlehandedly reinvigorated my passion for building websites
+  - Svelte is the best framework hands down.
+  - Typescript continues to save my (vegetarian) bacon
   - HTML
-  - (read JavaScript)
-- JavaScript
-  - TypeScript
-  - Node
-  - Deno
-  - Web
-  - ParcelJS
-  - Webpack
-  - AlpineJS
-  - JQuery
-- Linux
+  - Vanilla JavaScript (or Mocha if you will)
+  - Module Bundlers (Parcel, Webpack, Vite)
+  - AlpineJS is great for simple projects
+  - I used to use JQuery before I learned about Svelte and Alpine
+- Linux (and the fat penguin)
   - Linux+ Certified
   - Proxmox
   - Docker
@@ -41,5 +47,5 @@ go to my website
 reeseric.ci
 
 
-keep �
+keep on �
 
