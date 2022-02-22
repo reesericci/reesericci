@@ -5,12 +5,16 @@ A lienux+ certified hooman in the education system who creates apparently useful
 I like penguins, dinosaurs, strongly typed coffee, cybernetically enhanced web apps, and ships!
 (if anyone can understand those references please email me at me@reeseric.ci)
 
+[![Subscribe to my newsletter!](./newsletter.svg)](https://news.reeseric.ci)
+
 ### What I've been up to (accurate as of 2/21/22)
 
 I learned Svelte and it's **amazing**! It has so many features and just compiles down to what you actually use; it's super fast and yet so powerful. 
 It also brings JS into your HTML and not the other way around which is so much more intuitive.
 
 I just launched v3 for the shortie.sh frontend! It's written in Svelte using Sveltekit on Netlify as the hosting. Go check it out at well, shortie.sh. It's a dead-simple url shortener that's privacy-respecting.
+
+I also created an email newsletter for my thoughts at [news.reeseric.ci](https://news.reeseric.ci)
 
 
 
