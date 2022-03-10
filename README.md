@@ -1,6 +1,6 @@
 
-## Helloo there! 👋 -- I'm Reese (reesericci)
-A lienux+ certified hooman in the education system who creates apparently useful stuff on the interwebs.
+## Hello there! 👋 -- I'm Reese (reesericci)
+A linux+ certified human in the education system who creates apparently useful stuff on the internet.
 
 I like penguins, dinosaurs, strongly typed coffee, cybernetically enhanced web apps, and ships!
 (if anyone can understand those references please email me at me@reeseric.ci)
@@ -18,8 +18,8 @@ I also created an email newsletter for my thoughts at [news.reeseric.ci](https:/
 
 
 
-### Skillz
-(pronounced skill-zed)
+### Abilities
+(pronounced a·bil·i·ty)
 
 - Can make websites
   - TailwindCSS singlehandedly reinvigorated my passion for building websites
@@ -39,7 +39,7 @@ I also created an email newsletter for my thoughts at [news.reeseric.ci](https:/
 - Home Assistant
 - self-proclaimed tech wizard
 
-### Proojeects
+### Projects
  - irdy.no
  - shortie.sh
  - (api.)purplegrey.today
