@@ -1,0 +1,11 @@
+[default]
+name=Default
+runtime=podman:5c56eb390fb9ce4ada33a44d402925fc9ad1e26644f6a0ea74d7001d2f8705f3
+toolchain=default
+config-opts=
+run-opts=
+prefix=/var/home/reesericci/.var/app/org.gnome.Builder/cache/gnome-builder/install/homepage/podman-5c56eb390fb9ce4ada33a44d402925fc9ad1e26644f6a0ea74d7001d2f8705f3
+app-id=
+postbuild=
+prebuild=
+default=true
