@@ -16,8 +16,11 @@ const config = {
   },
   
 	kit: {
-		adapter: adapter()
-	}
+		adapter: adapter(),
+	  vite: {
+      assetsInclude: ["**/*.gpg","**/*.pub"]
+	  }
+	},
 };
 
 export default config;

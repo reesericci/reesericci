@@ -1,8 +1,12 @@
+<script>
+    import gpgKey from "$lib/assets/pub_key.gpg";
+</script>
+
 ## gpg
 
 Fingerprint: 0x86a9594b08970a4b
 
-[Download Public Key](/src/lib/assets/pub_key.gpg)
+[Download Public Key]({gpgKey})
 
 Keyservers:
 

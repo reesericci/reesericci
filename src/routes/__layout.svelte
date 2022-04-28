@@ -1,6 +1,10 @@
+<script>
+	import avatarUrl from "$lib/assets/avatar.png"
+</script>
+
 <svelte:head>
 	<title>reeseric.ci</title>
-	<link rel="icon" type="image/png" href="/src/lib/assets/avatar.png">
+	<link rel="icon" type="image/png" href={avatarUrl}>
 </svelte:head>
 
 <a href="/"><h1>reeseric.ci</h1></a>
