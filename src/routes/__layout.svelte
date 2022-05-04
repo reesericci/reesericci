@@ -13,6 +13,7 @@
 
 <style>
   @import url("$lib/assets/fonts/pp-editorial-new/pp-editorial-new.css");
+  @import url('simpledotcss/simple.min.css');
 
  :global(:root) {
    font-family: "PP Editorial New", sans-serif;
@@ -20,6 +21,6 @@
   
   a {
     text-decoration: none;
-    color: black;
+    color: orange;
   }
 </style>

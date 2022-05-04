@@ -14,6 +14,7 @@ Reese (reesericci) Armstrong's garbage homepage on the interwebs that I should h
 [ssh](/ssh)
 [rsa](/rsa)
 [mail](mailto:me@reeseric.ci)
+[tools](/tools)
 
 I make things on the interwebs that are apparently cool. <!--I also run a design firm that makes better websites than this called [polydig](https://polydig.com).-->
 
@@ -49,7 +50,7 @@ Check my newsletter at [news.reeseric.ci](https://news.reeseric.ci), or sign up 
   onsubmit="window.open('https://buttondown.email/reesericci', 'popupwindow')"
   class="embeddable-buttondown-form"
 >
-  <label for="bd-email">Enter your email</label>
+  <label style="display: block" for="bd-email">Enter your email</label>
   <input type="email" name="email" id="bd-email" />
   <input type="submit" value="Subscribe" />
 </form>

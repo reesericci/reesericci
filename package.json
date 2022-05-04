@@ -30,5 +30,9 @@
 		"tslib": "^2.3.1",
 		"typescript": "~4.6.2"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"html2canvas": "^1.4.1",
+		"simpledotcss": "^2.0.7"
+	}
 }
