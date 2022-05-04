@@ -3,6 +3,12 @@
 	import html2canvas from "html2canvas"
 	let parts = 1
 	let partsArray = []
+	
+	function getRandomInt(min, max) {
+  		min = Math.ceil(min);
+  		max = Math.floor(max);
+  		return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
+	}
 
 	async function downloadFlag() {
 		html2canvas(document.querySelector("#flag")).then(canvas => {
@@ -49,10 +55,13 @@
 		{/each}
 		</div>
 	</div>
-
-	<button on:click={downloadFlag}>
-		Download Flag
-	</button>
+	
+	<div style="display: flex">
+		<button on:click={parts = getRandomInt(0,6)}>Random flag</button>
+		<button on:click={downloadFlag}>
+			Download flag
+		</button>
+	</div>
 </main>
 
 <style>
