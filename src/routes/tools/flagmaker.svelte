@@ -9,6 +9,12 @@
   		max = Math.floor(max);
   		return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
 	}
+	
+	function randomFlag() {
+		const int = getRandomInt(0,6)
+		console.log(int)
+		parts = int
+	}
 
 	async function downloadFlag() {
 		html2canvas(document.querySelector("#flag")).then(canvas => {
@@ -56,8 +62,8 @@
 		</div>
 	</div>
 	
-	<div style="display: flex">
-		<button on:click={parts = getRandomInt(0,6)}>Random flag</button>
+	<div style="display: flex; gap: 0.5rem;">
+		<button on:click={randomFlag}>Random flag</button>
 		<button on:click={downloadFlag}>
 			Download flag
 		</button>
