@@ -12,7 +12,7 @@
 	
 	function randomFlag() {
 		const int = getRandomInt(0,6)
-		console.log(int)
+		parts = 0;
 		parts = int
 	}
 
