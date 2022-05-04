@@ -11,7 +11,7 @@
 	}
 	
 	function randomFlag() {
-		const int = getRandomInt(0,6)
+		const int = getRandomInt(1,6)
 		parts = 0;
 		parts = int
 	}
