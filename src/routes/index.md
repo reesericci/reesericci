@@ -31,6 +31,7 @@ Free (as in freedom) software carries this torch beyond the browser, into your o
 Here's the part where I toot my horn about the cool things I've done.
 
 - [shortie.sh](https://shortie.sh) - a very nerdy url shortener
+- [tools](/tools) - a collection of online tools I've made
 - [irdy.no](https://irdy.no) - a **successful** petition against the use of "I-Ready" in Austin ISD with over 160 signatures!
 - [news.reeseric.ci](https://news.reeseric.ci) - my weekly newsletter where I write about whatever I did that week.
 - [Midtown Rulers](https://midtownrulers.org) - the digital presence for a Central Austin youth basketball program. No paper was ever used.
