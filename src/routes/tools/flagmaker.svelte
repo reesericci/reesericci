@@ -67,4 +67,8 @@
 	label {
 		display: block;
 	}
+	main {
+		padding-bottom: 1rem;
+	}
+	
 </style>
