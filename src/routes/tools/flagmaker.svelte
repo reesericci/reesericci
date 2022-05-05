@@ -11,14 +11,8 @@
 	}
 	
 	function randomFlag() {
+		partsArray = []
 		parts = getRandomInt(1,6)
-		partsArray.forEach((el) => {
-			el = "#" + Math.floor(Math.random()*16777215).toString(16)
-		})
-		
-		for (let i = 0; i < parts - partsArray.length; i++) {
-			partsArray.push("#" + Math.floor(Math.random()*16777215).toString(16))
-		}
 	}
 
 	async function downloadFlag() {
