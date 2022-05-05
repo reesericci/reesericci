@@ -7,9 +7,13 @@
 	function getRandomInt(min, max) {
   		min = Math.ceil(min);
   		max = Math.floor(max);
-  		return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
+  		return Math.floor(Math.random() * (max - min + 1) + min);
 	}
 	
+  function randomHex() {
+    return "#" + Math.floor(Math.random()*16777215).toString(16)
+  }
+
 	function randomFlag() {
 		partsArray = []
 		parts = getRandomInt(1,6)
@@ -22,19 +26,18 @@
 		})
 	}
 
-	$: {
-		partsArray = partsArray;
-		if(partsArray.length > parts) {
-			for (let i = 0; i < partsArray.length - parts; i++) {
-				partsArray.pop()
-			}
-		} else if(partsArray.length < parts) {
-			for (let i = 0; i < parts - partsArray.length; i++) {
-				partsArray.push("#" + Math.floor(Math.random()*16777215).toString(16))
-			}
-		}
+  $: if(parts > partsArray.length) {
+      while(partsArray.length < parts) {
+          partsArray = [...partsArray, randomHex()]
+      }
+    }
 
-	}
+  $: if(parts < partsArray.length) {
+      while(partsArray.length > parts) {
+          partsArray.length = partsArray.length - 1;
+      }
+  }
+
 
 </script>
 
