@@ -13,6 +13,7 @@
 	function randomFlag() {
 		const int = getRandomInt(1,6)
 		parts = 0;
+		if(partsArray[0]) partsArray[0] = "#" + Math.floor(Math.random()*16777215).toString(16)
 		parts = int
 	}
 
