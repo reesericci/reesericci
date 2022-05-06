@@ -1,6 +1,8 @@
 <script>
 	import Part from "$lib/tools/flagmaker/Part.svelte"
 	import html2canvas from "html2canvas"
+  import ColorPicker from "$lib/tools/flagmaker/ColorPicker.svelte"
+  import { onMount } from "svelte"
 	let parts = 1
 	let partsArray = []
 	
@@ -38,6 +40,8 @@
       }
   }
 
+  let colorpicker = {}
+
 
 </script>
 
@@ -50,20 +54,19 @@
 	</div>
 
 	{#each partsArray as color,i}
-	<label for={`part-color-${i+1}`} style="padding-bottom: 0.5rem;">part color #{i + 1}</label>
-	<div>
-		<input name={`part-color-${i+1}`} bind:value={color}>
-	</div>
+  <div style="margin-bottom: 1rem;">
+	  <label for={`part-color-${i+1}`} style="padding-bottom: 0.5rem;">part color #{i + 1}</label>
+    <ColorPicker name={`part-color-${i+1}`} bind:value={color}></ColorPicker>
+  </div>
 	{/each}
 
-	<div id="wrapper">
-		<div id="flag">
-		{#each partsArray as color}
-			<Part color={color}></Part>
+  <div id="flag">
+	  {#each partsArray as color}
+		  <Part color={color}></Part>
 		{/each}
-		</div>
 	</div>
-	
+
+
 	<div style="display: flex; gap: 0.5rem;">
 		<button on:click={randomFlag}>Random flag</button>
 		<button on:click={downloadFlag}>

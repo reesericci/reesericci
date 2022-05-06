@@ -32,6 +32,8 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@eastdesire/jscolor": "^2.4.8",
+		"@lukeed/uuid": "^2.0.0",
 		"html2canvas": "^1.4.1",
 		"simpledotcss": "^2.0.7"
 	}
