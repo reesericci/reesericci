@@ -62,7 +62,7 @@ I would love to talk to you too!
 
  - email: me@reeseric.ci
 
- - matrix: reesericci:matrix.org
+ - matrix: [reesericci:matrix.org](https://matrix.to/#/@reesericci:matrix.org)
 
  - discord (please no): reesericci#7377
  
