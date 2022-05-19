@@ -36,11 +36,11 @@
 
 <InputGroup store={testsArr} unit="test" heading="Number of <b>tests</b>:"></InputGroup>
 
-<h2>
+<h3>
 	Daily Work: {Math.round(dailyWork)}<br>
 	Quizzes: {Math.round(quizzes)}<br>
 	Tests: {Math.round(tests)}
-</h2>
+</h3>
 
 <h1>
 	Total Grade: {grade}
