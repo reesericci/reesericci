@@ -1,5 +1,6 @@
 [flag maker](/tools/flagmaker)
-[cps counter](/tools/cpscounter)  <a href="/tools" style="color: skyblue;">all tools</a>
+[cps counter](/tools/cpscounter)  
+[hs grade calc](/tools/hscalc) <a href="/tools" style="color: skyblue;">all tools</a>
 
 <slot></slot>
 

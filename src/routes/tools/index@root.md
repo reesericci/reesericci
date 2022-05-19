@@ -4,3 +4,5 @@
 
 - [cps counter](/tools/cpscounter) - count clicks
 
+- [hs grade calc](/tools/hscalc) - a grade calculator for HS classes in AISD
+
