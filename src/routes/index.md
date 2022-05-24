@@ -65,7 +65,5 @@ I would love to talk to you too!
  - matrix: [reesericci:matrix.org](https://matrix.to/#/@reesericci:matrix.org)
  
  - mastodon: <a rel="me" href="https://fosstodon.org/@reesericci">@reesericci@fosstodon.org</a>
-
- - discord (please no): reesericci#7377
  
   <img src={noFacebookUrl} width="100px" alt="no facebook">
