@@ -63,6 +63,8 @@ I would love to talk to you too!
  - email: me@reeseric.ci
 
  - matrix: [reesericci:matrix.org](https://matrix.to/#/@reesericci:matrix.org)
+ 
+ - mastodon: <a rel="me" href="https://fosstodon.org/@reesericci">@reesericci@fosstodon.org</a>
 
  - discord (please no): reesericci#7377
  
