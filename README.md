@@ -1,5 +1,7 @@
 
 ## Helloo there! 👋 -- I'm Reese (reesericci)
+`/risrici/`
+
 A lienux+ certified hooman in the education system who creates apparently useful stuff on the interwebs.
 
 I like penguins, dinosaurs, strongly typed coffee, cybernetically enhanced web apps, and ships!
