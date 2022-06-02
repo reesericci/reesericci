@@ -9,7 +9,7 @@ Reese (reesericci) Armstrong's garbage homepage on the interwebs that I should h
 
 <!--[thoughts](https://thoughts.reeseric.ci)-->
 [news](https://news.reeseric.ci)
-[git](https://github.com/reesericci)
+[git](https://sr.ht/~reesericci)
 [gpg](/gpg)
 [ssh](/ssh)
 [rsa](/rsa)
