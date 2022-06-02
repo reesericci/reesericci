@@ -1,0 +1,26 @@
+image: archlinux
+sources:
+  - https://git.sr.ht/~reesericci/reesericci
+secrets:
+  - 7684df8b-5e96-4133-8e87-c199ab1bddae
+packages:
+  - nodejs
+  - npm
+environment:
+  NETLIFY_SITE_ID: 73e7e55f-a219-4046-9e2a-5926973c1f09
+tasks:
+  - deploy: |
+      cd reesericci
+      npm i
+      {
+        set +x
+        . ~/.buildsecrets
+        set -x
+      }
+      export NETLIFY_AUTH_TOKEN
+      npm run build
+      npx netlify-cli deploy --site=$NETLIFY_SITE_ID --prod
+triggers:
+  - action: email
+    condition: always
+    to: me@reeseric.ci
