@@ -5,7 +5,7 @@
 
 Reese (reesericci) Armstrong's garbage homepage on the interwebs that I should have spent more time on.
 
-<img src={imgUrl} width="100px" height="100px" alt="picture of reese">
+<img src={imgUrl} height="200px" alt="picture of reese">
 
 <!--[thoughts](https://thoughts.reeseric.ci)-->
 [news](https://news.reeseric.ci)
