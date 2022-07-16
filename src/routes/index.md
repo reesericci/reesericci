@@ -1,5 +1,5 @@
 <script>
-    import imgUrl from '$lib/assets/avatar.png'
+    import imgUrl from '$lib/assets/meonrenfe.png'
     import noFacebookUrl from "$lib/assets/no-facebook.svg"
 </script>
 
