@@ -1,0 +1,43 @@
+/* pp-editorial-new-ultrabold */
+@font-face {
+	font-family: PP Editorial New;
+	font-style: normal;
+	font-weight: 400;
+	src: local("PP Editorial New Ultrabold"), local("PPEditorialNew-Ultrabold"), url(pp-editorial-new-ultrabold.woff2) format("woff2");
+}
+/* pp-editorial-new-ultralight */
+@font-face {
+	font-family: PP Editorial New;
+	font-style: normal;
+	font-weight: 400;
+	src: local("PP Editorial New Ultralight"), local("PPEditorialNew-Ultralight"), url(pp-editorial-new-ultralight.woff2) format("woff2");
+}
+/* pp-editorial-new-regular */
+@font-face {
+	font-family: PP Editorial New;
+	font-style: normal;
+	font-weight: 400;
+	src: local("PP Editorial New Regular"), local("PPEditorialNew-Regular"), url(pp-editorial-new-regular.woff2) format("woff2");
+}
+/* pp-editorial-new-ultralight-italic */
+@font-face {
+	font-family: PP Editorial New;
+	font-style: italic;
+	font-weight: 400;
+	src: local("PP Editorial New Ultralight Italic"), local("PPEditorialNew-UltralightItalic"), url(pp-editorial-new-ultralight-italic.woff2) format("woff2");
+}
+/* pp-editorial-new-italic */
+@font-face {
+	font-family: PP Editorial New;
+	font-style: italic;
+	font-weight: 400;
+	src: local("PP Editorial New Italic"), local("PPEditorialNew-Italic"), url(pp-editorial-new-italic.woff2) format("woff2");
+}
+/* pp-editorial-new-ultrabold-italic */
+@font-face {
+	font-family: PP Editorial New;
+	font-style: italic;
+	font-weight: 400;
+	src: local("PP Editorial New Ultrabold Italic"), local("PPEditorialNew-UltraboldItalic"), url(pp-editorial-new-ultrabold-italic.woff2) format("woff2");
+}
+
