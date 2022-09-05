@@ -10,6 +10,13 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^1.1.5"
+    "@lukeed/uuid": "^2.0.0",
+    "astro": "^1.1.5",
+    "html2canvas": "^1.4.1"
+  },
+  "devDependencies": {
+    "@astrojs/mdx": "^0.11.1",
+    "@astrojs/svelte": "^1.0.0",
+    "svelte": "^3.50.0"
   }
 }

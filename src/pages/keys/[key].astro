@@ -1,0 +1,24 @@
+---
+import Key from "../../layouts/Key.astro"
+import * as json from "./index.json";
+
+export async function getStaticPaths() {
+    const keys = JSON.parse((await json.get()).body);
+    const arr = []
+    Object.keys(keys).forEach((el) => {
+        arr.push({params: {key: keys[el].title}, props: {...keys[el], directURL: `/keys/${keys[el].title}.keys`, downloadURL: `/keys/reesericci-${keys[el].title}.${keys[el].fileExtension}` }})
+    })
+    return arr
+}
+
+
+const { title, fingerprint, key, directURL, downloadURL } = Astro.props
+---
+
+<Key 
+title={title} 
+directURL={directURL} 
+downloadURL={downloadURL} 
+fingerprint={fingerprint} 
+keyString={key}
+/>

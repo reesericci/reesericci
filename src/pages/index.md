@@ -1,3 +1,7 @@
+---
+layout: ../layouts/Layout.astro 
+---
+
 <div id="webring-wrapper">
   <a href="https://webring.hackclub.com/" id="previousBtn" class="webring-anchor" title="Previous">‹</a>
   <a href="https://webring.hackclub.com/" class="webring-logo" title="Hack Club Webring" alt="Hack Club Webring"></a>
@@ -7,14 +11,14 @@
 
 Reese (reesericci) Armstrong's garbage homepage on the interwebs that I should have spent more time on.
 
-<img src="" height="200px" alt="picture of reese">
+<img src="/meonrenfe.jpg" height="200" style="height:200px; border-radius: 0;" alt="picture of reese">
 
 <!--[thoughts](https://thoughts.reeseric.ci)-->
 [news](https://news.reeseric.ci)
 [git](https://sr.ht/~reesericci)
-[gpg](/gpg)
-[ssh](/ssh)
-[rsa](/rsa)
+[gpg](/keys/gpg)
+[ssh](/keys/ssh)
+[rsa](/keys/rsa)
 [mail](mailto:me@reeseric.ci)
 [tools](/tools)
 

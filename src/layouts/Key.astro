@@ -1,0 +1,43 @@
+---
+import Layout from "./Layout.astro"
+import CopyButton from "../components/CopyButton.svelte";
+
+export interface Props {
+  title: string,
+  fingerprint: string,
+  directURL: string,
+  keyString: string,
+  downloadURL: string,
+}
+
+const {title, fingerprint,directURL,keyString,downloadURL}: Props = Astro.props;
+---
+
+<Layout>
+    <h2>{title}</h2>
+    <p>Fingerprint: {fingerprint}</p>
+
+    <p>Direct link: <a href={directURL}>{directURL}</a></p>
+    
+    <div>
+        <CopyButton client:load text="Copy public key" copied={keyString}></CopyButton>
+    </div>
+    
+    <a href={downloadURL}><button>Download public key</button></a>
+
+    <slot></slot>
+</Layout>
+
+<style is:global>
+    p {
+        margin: inherit 1rem inherit 1rem;
+    }
+
+    .links > ul > li {
+        margin: 0.5rem 0;
+    }
+
+    .links > ul {
+        margin-top: 0;
+    }
+</style>

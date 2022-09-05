@@ -11,17 +11,43 @@
 
 <a href="/"><h1>reeseric.ci</h1></a>
 
-<slot></slot>
+<slot/>
+
 </html>
 
 <style is:global>
   @import url("/fonts/pp-editorial-new/pp-editorial-new.css");
-  @import url('/simpledotcss/simple.min.css');
+  @import url('/simple.min.css');
 
  :root, * {
    font-family: "PP Editorial New", sans-serif;
  }
   
+  a {
+    color: orange;
+  }
+
+  h2 {
+    margin: 1rem 0 1rem 0;
+  }
+
+  .webring-anchor {
+    color: orange !important;
+    text-decoration: underline !important;
+    transition: ease-in-out;
+  }
+
+  .webring-anchor:hover {
+    text-decoration: none !important;
+  }
+
+  hr {
+    display: none;
+  }
+
+</style>
+
+<style>
   a {
     text-decoration: none;
     color: orange;
