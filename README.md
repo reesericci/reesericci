@@ -1,49 +1,57 @@
-# Welcome to [Astro](https://astro.build)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
+## Helloo there! 👋 -- I'm Reese (reesericci)
+`/risrici/`
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+A lienux+ certified hooman in the education system who creates apparently useful stuff on the interwebs.
 
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
+I like penguins, dinosaurs, strongly typed coffee, cybernetically enhanced web apps, and ships!
+(if anyone can understand those references please email me at me@reeseric.ci)
+
+[![Subscribe to my newsletter!](./newsletter.svg)](https://news.reeseric.ci)
+
+### What I've been up to (accurate as of 2/21/22)
+
+I learned Svelte and it's **amazing**! It has so many features and just compiles down to what you actually use; it's super fast and yet so powerful. 
+It also brings JS into your HTML and not the other way around which is so much more intuitive.
+
+I just launched v3 for the shortie.sh frontend! It's written in Svelte using Sveltekit on Netlify as the hosting. Go check it out at well, shortie.sh. It's a dead-simple url shortener that's privacy-respecting.
+
+I also created an email newsletter for my thoughts at [news.reeseric.ci](https://news.reeseric.ci)
 
 
-## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+### Skillz
+(pronounced skill-zed)
 
-```
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- Can make websites
+  - TailwindCSS singlehandedly reinvigorated my passion for building websites
+  - Svelte is the best framework hands down.
+  - Typescript continues to save my (vegetarian) bacon
+  - HTML
+  - Vanilla JavaScript (or Mocha if you will)
+  - Module Bundlers (Parcel, Webpack, Vite)
+  - AlpineJS is great for simple projects
+  - I used to use JQuery before I learned about Svelte and Alpine
+- Linux (and the fat penguin)
+  - Linux+ Certified
+  - Proxmox
+  - Docker
+  - a tiny bit of Kubernetes
+  - Self-hosting
+- Home Assistant
+- self-proclaimed tech wizard
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+### Proojeects
+ - irdy.no
+ - shortie.sh
+ - (api.)purplegrey.today
+ - ticalc.wiki
+ - stoopid.xyz
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-Any static assets, like images, can be placed in the `public/` directory.
+go to my website
+reeseric.ci
 
-## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
+keep on �
 
-| Command                | Action                                             |
-| :--------------------- | :------------------------------------------------- |
-| `npm install`          | Installs dependencies                              |
-| `npm run dev`          | Starts local dev server at `localhost:3000`        |
-| `npm run build`        | Build your production site to `./dist/`            |
-| `npm run preview`      | Preview your build locally, before deploying       |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro preview` |
-| `npm run astro --help` | Get help using the Astro CLI                       |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).

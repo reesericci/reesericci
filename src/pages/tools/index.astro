@@ -1,0 +1,33 @@
+---
+import Layout from "../../layouts/Layout.astro";
+const tools = await Astro.glob('./*.mdx');
+
+---
+
+<Layout>
+    <h2>tools</h2>
+
+    <p>below is a collection of small webtools i have made over the years</p>
+    
+    <ul>
+        {tools.map(tool => (
+            <li><a href={tool.url}>{tool.frontmatter.title}</a> - {tool.frontmatter.description ?? "no description"}</li>
+        ))}
+    </ul>
+
+    
+</Layout>
+
+<style>
+    ul {
+        line-height: 2.5;
+        margin-top: 0.5rem !important;
+    }
+    p {
+        margin-bottom: 0;
+    }
+
+    h2 {
+        margin-top: 3rem;
+    }
+</style>

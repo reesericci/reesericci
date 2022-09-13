@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width" />
 	<title>reeseric.ci</title>
-	<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+	<link rel="icon" type="image/png" href="/avatar.png"/>
   <meta name="generator" content={Astro.generator} />
 
 </head>
@@ -19,12 +19,15 @@
   @import url("/fonts/pp-editorial-new/pp-editorial-new.css");
   @import url('/simple.min.css');
 
+  body {
+    padding-bottom: 1rem;
+  }
  :root, * {
    font-family: "PP Editorial New", sans-serif;
  }
   
   a {
-    color: orange;
+    color: var(--accent);
   }
 
   h2 {
@@ -32,7 +35,7 @@
   }
 
   .webring-anchor {
-    color: orange !important;
+    color: var(--a) !important;
     text-decoration: underline !important;
     transition: ease-in-out;
   }
@@ -43,6 +46,10 @@
 
   hr {
     display: none;
+  }
+
+  ul {
+    margin-top: 0;
   }
 
 </style>

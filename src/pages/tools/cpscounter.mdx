@@ -1,10 +1,13 @@
 ---
+title: 'cps counter'
+description: 'count clicks'
+---
+---
 import ToolLayout from "../../layouts/ToolLayout.astro";
 import Tool from "../../tools/cpscounter.svelte"
 
-
 ---
 
-<ToolLayout title="cps counter">
+<ToolLayout title={frontmatter.title}>
 	<Tool client:load></Tool>
 </ToolLayout>

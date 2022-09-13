@@ -1,11 +1,45 @@
 ---
 import Layout from "./Layout.astro";
 const {title} = Astro.props;
+const tools = await Astro.glob('../pages/tools/*.mdx');
+
 ---
 
 <Layout>
+    <p>
+        <a href="/tools">view all tools:</a><span class="gap"></span>{tools.map(tool => (
+            <a href={tool.url}>{tool.frontmatter.title}</a>
+        
+        ))}
+    </p>
     <h2>{title}</h2>
     <div>
     	<slot></slot>
     </div>
 </Layout>
+
+<style>
+    a {
+        margin-right: 0.5rem;
+    }
+
+    .gap {
+        display: inline-block;
+        width: 0.1rem;
+    }
+
+    a[href="/tools"] {
+        color: skyblue !important;
+    }
+
+    @media (prefers-color-scheme:light) {
+        a[href="/tools"] {
+            color: orange !important;
+        } 
+    }
+
+    h2 {
+        margin-top: 0.5rem !important;
+    }
+
+</style>

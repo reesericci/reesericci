@@ -1,0 +1,13 @@
+---
+title: 'ms calc'
+description: 'a grade calculator for MS classes in Austin ISD'
+---
+---
+import ToolLayout from "../../layouts/ToolLayout.astro";
+import Tool from "../../tools/calcs/mscalc.svelte"
+
+---
+
+<ToolLayout title={frontmatter.title}>
+	<Tool client:load></Tool>
+</ToolLayout>

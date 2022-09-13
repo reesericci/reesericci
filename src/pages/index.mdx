@@ -1,6 +1,14 @@
+
 ---
-layout: ../layouts/Layout.astro 
+
+import Layout from "../layouts/Layout.astro"
+import Toast from "../components/Toast.astro"
+
 ---
+
+<Layout>
+
+<Toast></Toast>
 
 <div id="webring-wrapper">
   <a href="https://webring.hackclub.com/" id="previousBtn" class="webring-anchor" title="Previous">‹</a>
@@ -11,9 +19,10 @@ layout: ../layouts/Layout.astro
 
 Reese (reesericci) Armstrong's garbage homepage on the interwebs that I should have spent more time on.
 
-<img src="/meonrenfe.jpg" height="200" style="height:200px; border-radius: 0;" alt="picture of reese">
+<img src="/meonrenfe.jpg" height="200" style="height:200px; border-radius: 0;" alt="picture of reese"/>
 
-<!--[thoughts](https://thoughts.reeseric.ci)-->
+{/* [thoughts](https://thoughts.reeseric.ci) */}
+
 [news](https://news.reeseric.ci)
 [git](https://sr.ht/~reesericci)
 [gpg](/keys/gpg)
@@ -22,7 +31,7 @@ Reese (reesericci) Armstrong's garbage homepage on the interwebs that I should h
 [mail](mailto:me@reeseric.ci)
 [tools](/tools)
 
-I make things on the interwebs that are apparently cool. <!--I also run a design firm that makes better websites than this called [polydig](https://polydig.com).-->
+I make things on the interwebs that are apparently cool. {/*I also run a design firm that makes better websites than this called [polydig](https://polydig.com).*/}
 
 ## about the web and free software
 
@@ -36,8 +45,10 @@ Free (as in freedom) software carries this torch beyond the browser, into your o
 
 Here's the part where I toot my horn about the cool things I've done.
 
+
+- [hackaustin.net](https://hackaustin.net) - I'm running the first high-school hackathon in Austin since 2020 on October 16th (yes I know it's not done yet but I thought I'd include it for marketing)
 - [shortie.sh](https://shortie.sh) - a very nerdy url shortener
-- [tools](/tools) - a collection of online tools I've made
+- [tools](/tools) - a collection of  webtools I've made
 - [irdy.no](https://irdy.no) - a **successful** petition against the use of "I-Ready" in Austin ISD with over 160 signatures!
 - [news.reeseric.ci](https://news.reeseric.ci) - my weekly newsletter where I write about whatever I did that week.
 - [Midtown Rulers](https://midtownrulers.org) - the digital presence for a Central Austin youth basketball program. No paper was ever used.
@@ -72,4 +83,8 @@ I would love to talk to you too!
  
  - mastodon: <a rel="me" href="https://fosstodon.org/@reesericci">@reesericci@fosstodon.org</a>
  
-  <img src={noFacebookUrl} width="100px" alt="no facebook">
+    <img src="/no-facebook.svg" width="150px" alt="no facebook"></img>
+
+</Layout>
+
+

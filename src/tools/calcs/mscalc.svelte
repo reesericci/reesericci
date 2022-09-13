@@ -1,6 +1,6 @@
 <script>
 	import { writable } from 'svelte/store';
-	import InputGroup from "$lib/tools/calcs/InputGroup.svelte"
+	import InputGroup from "./InputGroup.svelte"
 	
 	function avg(arr) {
 		let total = 0;
@@ -25,10 +25,6 @@
 	
 	
 </script>
-
-<h2>
-	MS Grade Calculator AISD
-</h2>
 
 <InputGroup store={dailyWorkArr} unit="assignment" heading="Number of <b>daily work</b> assignments:"></InputGroup>
 
