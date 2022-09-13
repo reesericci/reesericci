@@ -1,0 +1,21 @@
+image: archlinux
+sources:
+  - https://git.sr.ht/~reesericci/reesericci
+secrets:
+  - 0177395b-9b7a-4eef-9ed7-81f05e22e1c8
+tasks:
+  - push_to_github: |
+      cd reesericci
+      git checkout main
+      git config user.name "reesericci"
+      git config user.email "me@reeseric.ci"
+      ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+      git remote add gh git@github.com:reesericci/reesericci.git
+      sed -i '1i # THIS IS A READ-ONLY MIRROR of [sr.ht/~reesericci/reesericci](https://sr.ht/~reesericci/reesericci)' README.md
+      git add README.md
+      git commit -m "(chore) prepend read-only message to README"
+      git push -f gh
+triggers:
+  - action: email
+    condition: always
+    to: me@reeseric.ci
