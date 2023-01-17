@@ -1,0 +1,13 @@
+---
+title: 'quadratic solver'
+description: 'solve quadratics'
+---
+---
+import ToolLayout from "../../layouts/ToolLayout.astro";
+import Tool from "../../tools/quadratic.svelte"
+
+---
+
+<ToolLayout title={frontmatter.title}>
+	<Tool client:load></Tool>
+</ToolLayout>
