@@ -9,14 +9,17 @@
 
 <label for="a">A-value</label>
 <input name="a" type="number" bind:value={a}>
+<br>
 <label for="b">B-value</label>
+<br>
 <input name="b" type="number" bind:value={b}>
+<br>
 <label for="c">C-value</label>
 <input name="c" type="number" bind:value={c}>
 
-<h2>
+<h3>
 	Solution #1: <b>{solved1}</b><br>
 	Solution #2: <b>{solved2}</b>
-</h2>
+</h3>
 
 
