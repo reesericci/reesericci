@@ -11,7 +11,6 @@
 <input name="a" type="number" bind:value={a}>
 <br>
 <label for="b">B-value</label>
-<br>
 <input name="b" type="number" bind:value={b}>
 <br>
 <label for="c">C-value</label>
