@@ -3,7 +3,11 @@
   command = "astro build"
   functions = "netlify/functions"
   publish = "dist"
-
+[[headers]]
+  # Define which paths this specific [[headers]] block will cover.
+  for = "/.well-known/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
   #[[redirects]]
